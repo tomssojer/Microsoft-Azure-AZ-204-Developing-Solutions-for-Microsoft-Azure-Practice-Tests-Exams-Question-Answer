@@ -1475,7 +1475,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ![Question 121](images/question121.png)
 
-- [x] Box 1: Create a single Service Bus topic. Box 2: Create a Service Bus Namespace for each restaurat for which a driver can receive messages. Box 3: Create a Service Bus subscription for each restaurant for which a driver can receive orders.
+- [x] Box 1: Create a single Service Bus topic. Box 2: Create a single Service Bus Namespace. Box 3: Create a Service Bus subscription for each restaurant for which a driver can receive orders.
 - [ ] Box 1: Create a Service Bus subscription for each restaurant for which a driver can receive orders. Box 2: Create a Service Bus topic for each restaurant. Box 3: Create a Service Bus Namespace for each.
 - [ ] Box 1: Create a single Service Bus topic. Box 2: Create a Service Bus subscription for each restaurant for which a driver can receive orders. Box 3: Create a single Service Bus topic.
 - [ ] Box 1: Create a single Service Bus topic. Box 2: Create a Service Bus Namespace for each restaurat for which a driver can receive messages. Box 3: Create a Service Bus Namespace for each.
@@ -1562,9 +1562,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### You are developing an Azure function that connects to an Azure SQL Database instance. The function is triggered by an Azure Storage queue. You receive reports of numerous System.InvalidOperationExceptions with the following message: 'Timeout expired. The timeout period elapsed prior to obtaining a connection from the pool. This may have occurred because all pooled connections were in use and max pool size was reached.' You need to prevent the exception. What should you do?
 
-- [ ] In the host.json file, decrease the value of the batchSize option.
+- [x] In the host.json file, decrease the value of the batchSize option.
 - [ ] Convert the trigger to Azure Event Hub.
-- [x] Convert the Azure Function to the Premium plan.
+- [ ] Convert the Azure Function to the Premium plan.
 - [ ] In the function.json file, change the value of the type option to queueScaling.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1865,15 +1865,15 @@ specified personnel if the temperature is outside of those thresholds.
 
 ### You are designing an Azure WebJob that will run on the same instances as a web app. You want to make use of a suitable WebJob type. The webjob type should also allow for the option to restrict the WebJob to a single instance. Solution: You configure the use of the Triggered WebJob type. Does the solution meet the goal?
 
-- [ ] Yes.
-- [x] No.
+- [x] Yes.
+- [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You are designing an Azure WebJob that will run on the same instances as a web app. You want to make use of a suitable WebJob type. The webjob type should also allow for the option to restrict the WebJob to a single instance. Solution: You configure the use of the Continuous WebJob type. Does the solution meet the goal?
 
-- [x] Yes.
-- [ ] No.
+- [ ] Yes.
+- [x] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1888,8 +1888,8 @@ specified personnel if the temperature is outside of those thresholds.
 
 ### You are developing an application that processes Azure Blob storage events. Your application has the following requirements: Process transaction logs asynchronously for changes that occur to the blobs and the blob metadata. Process changes in the order in which they occurred. Retain changes for compliance reasons. Solution: You use Azure Event Grid with a subscriber Azure Function app. Does the solution meet the goal?
 
-- [x] Yes.
-- [ ] No.
+- [ ] Yes.
+- [x] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2067,8 +2067,8 @@ specified personnel if the temperature is outside of those thresholds.
 
 - [ ] Create a new Azure Event Grid subscription for all authentication events. Use the subscription to process sign-out events.
 - [ ] Create a separate Azure Event Grid handler for sign-in and sign-out events.
-- [ ] Create separate Azure Event Grid topics and subscriptions for sign-in and sign-out events.
-- [x] Add a subject prefix to sign-out events. Create an Azure Event Grid subscription. Configure the subscription to use the subjectBeginsWith filter.
+- [x] Create separate Azure Event Grid topics and subscriptions for sign-in and sign-out events.
+- [ ] Add a subject prefix to sign-out events. Create an Azure Event Grid subscription. Configure the subscription to use the subjectBeginsWith filter.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2169,9 +2169,9 @@ specified personnel if the temperature is outside of those thresholds.
 
 ![Question 201](images/question201.jpg)
 
-- [x] Box 1: Configure the web app to the Standard App Service tier. Box 2: Enable autoscaling on the web app. Box 3: Add a Scale rule. Box 4: Configure a Scale condition.
+- [ ] Box 1: Configure the web app to the Standard App Service tier. Box 2: Enable autoscaling on the web app. Box 3: Add a Scale rule. Box 4: Configure a Scale condition.
 - [ ] Box 1: Enable autoscaling on the web app. Box 2: Add a Scale rule. Box 3:Configure a Scale condition. Box 4:Switch to an Azure App Services consumption plan.
-- [ ] Box 1: Configure the web app to the Standard App Service tier. Box 2: Enable autoscaling on the web app. Box 3: Configure a Scale condition. Box 4: SecretClient.
+- [x] Box 1: Configure the web app to the Standard App Service tier. Box 2: Enable autoscaling on the web app. Box 3: Configure a Scale condition. Box 4: Add a Scale rule.
 - [ ] Box 1: Switch to an Azure App Services consumption plan. Box 2: Configure the web app to the Premium App Service tier. Box 3: Enable autoscaling on the web app. Box 4: Configure a Scale condition.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -2183,7 +2183,7 @@ specified personnel if the temperature is outside of those thresholds.
 - [ ] Box 1: Put a message on a queue. Box 2: Recurrence. Box 3: Condition. Box 4: When there are messages in a queue. Box 5: List blobs 2.
 - [ ] Box 1: Recurrence. Box 2: Condition. Box 3: When there are messages in a queue. Box 4: Tier blob. Box 5: List blobs 2.
 - [ ] Box 1: Recurrence. Box 2: Condition. Box 3: Put a message on a queue. Box 4: When there are messages in a queue. Box 5: Tier blob.
-- [x] Box 1: Recurrence. Box 2: Condition. Box 3: Put a message on a queue. Box 4: Tier blob. Box 5: List blobs 2.
+- [x] Box 1: Recurrence. Box 2: Condition. Box 3: Tier blob. Box 4: Put a message on a queue. Box 5: x
 
 **[⬆ Back to Top](#table-of-contents)**
 
